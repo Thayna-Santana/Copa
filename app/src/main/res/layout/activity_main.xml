@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textoBelgica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bélgica"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/escalacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:backgroundTint="@color/yellow_500"
+        android:text="Ver Escalação"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/viewGrupo"
+        android:layout_width="355dp"
+        android:layout_height="274dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="381dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="129dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        tools:srcCompat="@drawable/belgica"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textoFase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="352dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Fase de Grupos"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23/11"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27/11"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/data3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01/12"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <View
+        android:id="@+id/viewEscalacao"
+        android:layout_width="351dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="264dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <View
+        android:id="@+id/viewEscalacao2"
+        android:layout_width="351dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <View
+        android:id="@+id/viewEscalacao3"
+        android:layout_width="351dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <ImageView
+        android:id="@+id/bel_1"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="414dp"
+        tools:srcCompat="@drawable/belgica" />
+
+    <ImageView
+        android:id="@+id/bel_2"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="497dp"
+        tools:srcCompat="@drawable/belgica" />
+
+    <ImageView
+        android:id="@+id/bel_3"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="582dp"
+        tools:srcCompat="@drawable/belgica" />
+
+    <ImageView
+        android:id="@+id/canada"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="414dp"
+        tools:srcCompat="@drawable/canada"
+        />
+
+    <ImageView
+        android:id="@+id/croacia"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="497dp"
+        tools:srcCompat="@drawable/croacia" />
+
+    <ImageView
+        android:id="@+id/croacia3"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="497dp"
+        tools:srcCompat="@drawable/croacia" />
+
+    <ImageView
+        android:id="@+id/marrocos"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="582dp"
+        tools:srcCompat="@drawable/marrocos" />
+
+    <TextView
+        android:id="@+id/texBel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bélgica"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/textBel_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bélgica"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <TextView
+        android:id="@+id/textBel_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bélgica"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Canadá"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/textC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Croácia"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <TextView
+        android:id="@+id/textM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marrocos"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
